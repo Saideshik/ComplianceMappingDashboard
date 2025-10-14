@@ -1,0 +1,24 @@
+Control_ID,Framework,Control_Name,Mapped_To,Status,Evidence_File,Owner,Due_Date,Notes
+AC-1,NIST 800-53,Access Control Policy and Procedures,A.9.1.1,Implemented,access_control_policy.pdf,Security,GRC-2025-11-01,Annual review scheduled
+AC-2,NIST 800-53,Account Management,A.9.2.1,In Progress,N/A,IT,2025-12-15,Automating user provisioning
+AC-3,NIST 800-53,Access Enforcement,A.9.1.2,Implemented,rbac_matrix.xlsx,Security,2025-11-15,Enforced via IAM roles
+AC-6,NIST 800-53,Least Privilege,A.9.1.2,In Progress,N/A,Security,2025-11-30,Privilege reviews pending
+AU-2,NIST 800-53,Event Logging,A.12.4.1,Implemented,siem_logging_arch.png,SecEng,2025-11-20,Centralized to Splunk
+AU-6,NIST 800-53,Audit Review Analysis and Reporting,A.12.4.3,Not Started,N/A,GRC,2026-01-20,Define quarterly cadence
+CM-2,NIST 800-53,Baseline Configuration,A.12.1.2,Implemented,hardening_baseline.docx,IT,2025-11-18,Aligned to CIS L1
+CM-6,NIST 800-53,Configuration Settings,A.12.1.2,In Progress,N/A,IT,2025-12-10,AD GPO updates
+IR-4,NIST 800-53,Incident Handling,A.16.1.5,Implemented,ir_playbook_v3.pdf,SecOps,2025-10-10,Tabletop complete
+IR-6,NIST 800-53,Incident Reporting,A.16.1.2,Implemented,incident_form_template.docx,SecOps,2025-11-05,Integrated with Jira
+RA-5,NIST 800-53,Vulnerability Monitoring,A.12.6.1,In Progress,scan_schedule.xlsx,SecEng,2025-11-25,Expanding coverage
+SC-7,NIST 800-53,Boundary Protection,A.13.1.1,Implemented,fw_ruleset.json,NetEng,2025-11-28,WAF tuned
+SC-13,NIST 800-53,CRL/OCSP Protection,A.10.1.2,Not Started,N/A,IT,2026-02-01,PKI redesign planned
+SI-2,NIST 800-53,Flaw Remediation,A.12.6.1,In Progress,patch_sla_policy.pdf,IT,2025-12-05,SLA draft to approve
+PL-2,NIST 800-53,System and Communications Protection Policies,A.5.1.1,Implemented,security_policy_master.pdf,GRC,2025-10-20,Approved by leadership
+A.9.1.1,ISO 27001,Access Control Policy,AC-1,Implemented,access_control_policy.pdf,Security,2025-11-01,Aligned with AC-1
+A.9.2.1,ISO 27001,User Access Management,AC-2,In Progress,N/A,IT,2025-12-15,Waiting for HRIS feed
+A.12.6.1,ISO 27001,Technical Vulnerability Management,SI-2,In Progress,scan_schedule.xlsx,SecEng,2025-11-25,Monthly cadence
+A.12.4.1,ISO 27001,Event Logging,AU-2,Implemented,siem_logging_arch.png,SecEng,2025-11-20,Correlated via SIEM
+A.16.1.5,ISO 27001,Response to Information Security Incidents,IR-4,Implemented,ir_playbook_v3.pdf,SecOps,2025-10-10,Aligned with IR-4
+A.13.1.1,ISO 27001,Network Controls,SC-7,Implemented,fw_ruleset.json,NetEng,2025-11-28,Zero Trust perimeter
+A.5.1.1,ISO 27001,Policies for Information Security,PL-2,Implemented,security_policy_master.pdf,GRC,2025-10-20,Quarterly review
+A.10.1.2,ISO 27001,Key Management,SC-13,Not Started,N/A,IT,2026-02-01,Needs HSM review
